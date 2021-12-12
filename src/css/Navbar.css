@@ -1,0 +1,51 @@
+.navbar {
+    background-color: rgba(22, 22, 22, 0.5);
+}
+
+.nav-link {
+  color: white !important;
+  font-family: fontSub;
+}
+
+.nav-link:hover {
+  color: rgba(255, 255, 255, 0.61) !important;
+}
+  
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-toggler {
+    float: none;
+    margin:0 auto;
+}
+  
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+}
+
+.socialLinks {
+    transition: 0.2s;
+}
+
+.socialLinks:hover {
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 992px) {
+  .topSocials {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .topSocials {
+    position: absolute;
+    right: 0;
+  }
+}

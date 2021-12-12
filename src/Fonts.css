@@ -1,0 +1,54 @@
+@font-face {
+    font-family: fontMain;
+    src: url(Fonts/Cinzel-Regular.woff2);
+}
+  
+@font-face {
+    font-family: fontMainBold;
+    src: url(Fonts/Cinzel-Bold.woff2);
+}
+  
+@font-face {
+    font-family: fontMainBolder;
+    src: url(Fonts/Cinzel-Black.woff2);
+}
+  
+@font-face {
+    font-family: fontSub;
+    src: url(Fonts/Montserrat-Regular.woff2);
+}
+  
+@font-face {
+    font-family: fontSubBold;
+    src: url(Fonts/Montserrat-Bold.woff2);
+}
+  
+@font-face {
+    font-family: fontSubBolder;
+    src: url(Fonts/Montserrat-Black.woff2);
+}
+  
+  
+.fontMain {
+    font-family: fontMain;
+}
+  
+.fontMainBold {
+    font-family: fontMainBold;
+}
+  
+.fontMainBolder {
+    font-family: fontMainBolder;
+}
+  
+.fontSub {
+    font-family: fontSub;
+}
+
+.fontSubBold {
+    font-family: fontSubBold;
+}
+
+.fontSubBolder {
+    font-family: fontSubBolder;
+}

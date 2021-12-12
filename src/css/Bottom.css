@@ -1,0 +1,80 @@
+.emeraldChunkResize {
+    width: 64px;
+    left: 0;
+    bottom: 0;
+    transition: 1s;
+}
+
+.emeraldFullResize {
+    width: 192px;
+    right: 0;
+    bottom: 0;
+    transform: translateX(30%);
+    transition: 1s;
+}
+
+.twitterSocial {
+    background-color: rgb(10, 147, 226) !important;
+}
+
+.discordSocial {
+    background-color: rgb(114, 137, 218) !important;
+}
+
+.twitterSocial:hover {
+    background-color: rgb(7, 115, 177) !important;
+}
+
+.discordSocial:hover {
+    background-color: rgb(89, 107, 170) !important;
+}
+
+.socialInviteText {
+    font-size: 1.5rem;
+    white-space: nowrap;
+    transition: 1s;
+}
+
+.footer {
+    margin-top: 100px;
+    height: 50px;
+    width: 100%;
+    object-fit: cover;
+    transition: 1s;
+}
+
+@media screen and (min-width: 576px) {
+    .socialInviteText {
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .emeraldChunkResize {
+        width: 96px;
+    }
+    .emeraldFullResize {
+        width: 288px;
+    }
+    .socialInviteText {
+        font-size: 2.1rem;
+    }
+    .footer {
+        height: 75px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .emeraldChunkResize {
+        width: 128px;
+    }
+    .emeraldFullResize {
+        width: 384px;
+    }
+    .socialInviteText {
+        font-size: 2.4rem;
+    }
+    .footer {
+        height: 100px;
+    }
+}

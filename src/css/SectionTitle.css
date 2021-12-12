@@ -1,0 +1,41 @@
+.sectionTitle {
+    position: relative;
+    z-index: 2;
+    background-color: rgb(0, 84, 26);
+    background: linear-gradient(180deg, rgba(0,84,26,1) 0%, rgba(22,150,28,1) 100%);
+    color: white;
+    transition: 1s;
+    letter-spacing: 2px;
+    font-family: fontMainBold;
+    white-space: nowrap;
+}
+
+@media screen and (max-width: 576px) {
+    .sectionTitle {
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .sectionTitle {
+        font-size: 32px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .sectionTitle {
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .sectionTitle {
+        font-size: 48px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .sectionTitle {
+        font-size: 56px;
+    }
+}

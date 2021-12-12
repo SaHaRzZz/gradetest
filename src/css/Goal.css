@@ -1,0 +1,20 @@
+@keyframes goalGlow {
+    0% {transform: translateY(0px) scale(100%)}
+    50% {transform: translateY(-1px) scale(160%)}
+    100% {transform: translateY(0px) scale(100%)}
+}
+
+@keyframes moveAnim {
+    0% {transform: translateY(0px)}
+    50% {transform: translateY(-1px)}
+    100% {transform: translateY(0px)}
+}
+
+.glow {
+    box-shadow: 0px 0px 15px 7.5px rgb(31, 255, 42);
+    animation: goalGlow infinite 6s;
+}
+
+.move {
+    animation: moveAnim infinite 6s;
+}

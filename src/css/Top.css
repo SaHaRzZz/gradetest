@@ -1,0 +1,85 @@
+
+.background {
+    object-fit: cover;
+    width: 100%;
+    z-index: -1;
+}
+
+#blackBottom {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    transform: scaleX(200%);
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 50% 50% 0 0;
+}
+
+#mainText {
+    position: relative;
+    z-index: 4;
+    letter-spacing: 2px;
+    font-size: 1.7rem;
+    white-space: nowrap;
+}
+
+#topDiv {
+    transition: 0.2s;
+}
+
+#emeraldFull {
+    width: 45%;
+    transition: 1s;
+    transform: translateY(0.55%);
+}
+
+@media screen and (min-width: 576px) {
+    #topDiv {
+        margin-top: 2%;
+    }
+    #emeraldFull {
+        width: 50%;
+        transform: translateY(0.6%);
+    }
+    #mainText {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #topDiv {
+        margin-top: 4%;
+    }
+    #emeraldFull {
+        width: 55%;
+        transform: translateY(0.65%);
+    }
+    #mainText {
+        font-size: 2.3rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #topDiv {
+        margin-top: 6%;
+    }
+    #emeraldFull {
+        width: 60%;
+        transform: translateY(0.7%);
+    }
+    #mainText {
+        font-size: 2.6rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #topDiv {
+        margin-top: 8%;
+    }
+    #emeraldFull {
+        width: 65%;
+        transform: translateY(0.75%);
+    }
+    #mainText {
+        font-size: 2.9rem;
+    }
+}

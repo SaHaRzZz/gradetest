@@ -1,0 +1,9 @@
+#dashes {
+    background-image: url(Imgs/dashes.png);
+    z-index: 3;
+    transform: translateX(-50%);
+    opacity: 0.4;
+    padding: 1px 3px;
+    border-radius: 20%;
+    height: 95%;
+}
